@@ -1,5 +1,5 @@
 // ===== EMBEDDED LOGO (base64 — works on any host, no path issues) =====
-const LOGO_DATA ="logo.png"
+const LOGO_DATA ="./logo.png"
 document.querySelectorAll('#nav-logo-img, #hero-logo, #footer-logo').forEach(img => {
   img.src = LOGO_DATA;
 });
