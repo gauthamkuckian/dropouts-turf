@@ -1,0 +1,279 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Dropouts Turf — Vasai's Biggest Turf</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link href="https://fonts.googleapis.com/css2?family=Anton&family=Rajdhani:wght@500;600;700&family=Teko:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css"/>
+</head>
+<body>
+
+<!-- CUSTOM CURSOR -->
+<div class="cursor" id="cursor"></div>
+<div class="cursor-trail" id="cursor-trail"></div>
+
+<!-- NAVBAR -->
+<nav id="navbar">
+  <a href="#home" class="nav-logo">
+    <img id="nav-logo-img" src="" alt="Dropouts Turf"/>
+  </a>
+  <button class="hamburger" id="hamburger" aria-label="Toggle menu">
+    <span></span><span></span><span></span>
+  </button>
+  <ul class="nav-links" id="nav-links">
+    <li><a href="#about">About</a></li>
+    <li><a href="#sports">Sports</a></li>
+    <li><a href="#coming-soon">Coming Soon</a></li>
+    <li><a href="#offer">Offer</a></li>
+    <li><a href="#contact" class="nav-book">Book Now</a></li>
+  </ul>
+</nav>
+
+<!-- HERO -->
+<section id="home" class="hero">
+  <canvas id="particles-canvas"></canvas>
+  <div class="hero-field-lines"></div>
+  <div class="hero-center-circle"></div>
+  <div class="hero-content">
+    <div class="hero-logo-wrap">
+      <img id="hero-logo" src="" alt="Dropouts Turf Logo"/>
+    </div>
+    <div class="hero-tags">
+      <span class="tag">⚽ FIFA Certified</span>
+      <span class="tag">📐 7000 sq.ft</span>
+      <span class="tag">🏟️ 30ft Height</span>
+    </div>
+    <h1 class="hero-headline">
+      <span class="vasai">VASAI'S</span>
+      <span class="biggest">BIGGEST</span>
+      <span class="turf-word">TURF</span>
+    </h1>
+    <div class="offer-strip">
+      <span class="fire">🔥</span>
+      <span>Special Offer — Only <strong>₹500/hr</strong> till 1st May</span>
+      <span class="fire">🔥</span>
+    </div>
+    <div class="hero-btns">
+      <a href="tel:9022400165" class="btn-hero-primary">📞 Book a Slot</a>
+      <a href="#about" class="btn-hero-ghost">Explore ↓</a>
+    </div>
+  </div>
+  <div class="hero-scroll-hint">SCROLL</div>
+</section>
+
+<!-- TICKER -->
+<div class="ticker-bar">
+  <div class="ticker-inner">
+    <span>⚽ FIFA Certified Grass</span><span class="dot">◆</span>
+    <span>🏏 Football &amp; Cricket</span><span class="dot">◆</span>
+    <span>📐 7000 sq.ft Arena</span><span class="dot">◆</span>
+    <span>🏟️ 30 Feet Height</span><span class="dot">◆</span>
+    <span>📍 Vasai West</span><span class="dot">◆</span>
+    <span>🔥 ₹500/hr Limited Offer</span><span class="dot">◆</span>
+    <span>⚽ FIFA Certified Grass</span><span class="dot">◆</span>
+    <span>🏏 Football &amp; Cricket</span><span class="dot">◆</span>
+    <span>📐 7000 sq.ft Arena</span><span class="dot">◆</span>
+    <span>🏟️ 30 Feet Height</span><span class="dot">◆</span>
+    <span>📍 Vasai West</span><span class="dot">◆</span>
+    <span>🔥 ₹500/hr Limited Offer</span><span class="dot">◆</span>
+  </div>
+</div>
+
+<!-- ABOUT -->
+<section id="about" class="about">
+  <div class="about-bg-text">DROP<br/>OUTS</div>
+  <div class="wrap">
+    <div class="about-left reveal">
+      <div class="eyebrow">Who We Are</div>
+      <h2>More Than<br/>Just a Pitch</h2>
+      <p>Dropouts Turf is Vasai's premier sports arena — a sprawling <strong>7000 sq.ft</strong> FIFA certified natural grass turf with a soaring <strong>30ft height</strong>. Built for ballers, cricket lovers, and everyone who wants to play hard.</p>
+      <ul class="check-list">
+        <li><span class="chk">✓</span>FIFA Certified Natural Grass Turf</li>
+        <li><span class="chk">✓</span>Largest Turf in Vasai</li>
+        <li><span class="chk">✓</span>Football &amp; Cricket Available</li>
+        <li><span class="chk">✓</span>Floodlit for Night Games</li>
+      </ul>
+      <a href="tel:9022400165" class="btn-green">Reserve Your Slot →</a>
+    </div>
+    <div class="about-right reveal">
+      <div class="stat-board">
+        <div class="stat-item">
+          <div class="stat-num" data-val="7000">0</div>
+          <div class="stat-label">Sq.Ft Arena</div>
+        </div>
+        <div class="stat-divider"></div>
+        <div class="stat-item">
+          <div class="stat-num" data-val="30">0</div>
+          <div class="stat-label">Feet Height</div>
+        </div>
+        <div class="stat-divider"></div>
+        <div class="stat-item">
+          <div class="stat-num price">₹500</div>
+          <div class="stat-label">Per Hour*</div>
+        </div>
+      </div>
+      <div class="fifa-badge reveal">
+        <span class="fifa-icon">🏆</span>
+        <span>FIFA Certified<br/>Grass Turf</span>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- SPORTS -->
+<section id="sports" class="sports">
+  <div class="wrap">
+    <div class="eyebrow center">What We Offer</div>
+    <h2 class="center white">Play Your Game</h2>
+    <div class="sports-cards">
+      <div class="sport-card reveal" style="--c:#1b6b2f">
+        <div class="sport-bg-icon">⚽</div>
+        <div class="sport-emoji">⚽</div>
+        <h3>Football</h3>
+        <p>Full-size FIFA certified grass pitch. Perfect for 5-a-side, 7-a-side, and competitive matches. Book by the hour with your crew.</p>
+        <div class="available-now">● Available Now</div>
+      </div>
+      <div class="sport-card reveal" style="--c:#1a4a1f">
+        <div class="sport-bg-icon">🏏</div>
+        <div class="sport-emoji">🏏</div>
+        <h3>Cricket</h3>
+        <p>Hard-ball cricket on our full-sized field. Enough space for a proper match, practice sessions, or a friendly knock-about.</p>
+        <div class="available-now">● Available Now</div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- COMING SOON -->
+<section id="coming-soon" class="soon">
+  <div class="wrap">
+    <div class="eyebrow center">What's Coming</div>
+    <h2 class="center white">Level Up Incoming</h2>
+    <p class="sub-desc center">We're building Vasai's most complete sports &amp; lifestyle destination. Stay tuned.</p>
+    <div class="soon-grid">
+      <div class="soon-card reveal" style="--d:0s">
+        <div class="soon-num">01</div>
+        <div class="soon-icon">🎮</div>
+        <h4>PS5 Lounge</h4>
+        <p>Game hard off the pitch. A fully equipped PS5 lounge for when you need a break from real life.</p>
+        <div class="soon-tag">Opening Soon</div>
+      </div>
+      <div class="soon-card reveal" style="--d:.1s">
+        <div class="soon-num">02</div>
+        <div class="soon-icon">🏏</div>
+        <h4>Cricket Nets</h4>
+        <p>Two professional-grade cricket nets for batting practice and bowling drills. Sharpen your game.</p>
+        <div class="soon-tag">Opening Soon</div>
+      </div>
+      <div class="soon-card reveal" style="--d:.2s">
+        <div class="soon-num">03</div>
+        <div class="soon-icon">🧊</div>
+        <h4>Ice Bath</h4>
+        <p>Recover faster, perform better. A dedicated ice bath facility for serious athletes post-session.</p>
+        <div class="soon-tag">Opening Soon</div>
+      </div>
+      <div class="soon-card reveal" style="--d:.3s">
+        <div class="soon-num">04</div>
+        <div class="soon-icon">🏓</div>
+        <h4>Pickleball Court</h4>
+        <p>The fastest-growing sport hits Vasai. A dedicated court for beginners and competitive players alike.</p>
+        <div class="soon-tag">Opening Soon</div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- OFFER -->
+<section id="offer" class="offer">
+  <div class="offer-particles"></div>
+  <div class="wrap offer-wrap">
+    <div class="offer-left reveal">
+      <div class="eyebrow gold">⚡ Limited Time Only</div>
+      <h2 class="white offer-h2">Play for just</h2>
+      <div class="price-big">₹500<span class="per-hr">/hr</span></div>
+      <p class="offer-p">Grab your slot before <strong>1st May</strong> to lock in this special introductory rate. Don't sleep on it.</p>
+      <a href="tel:9022400165" class="btn-gold">📞 Call: 9022400165</a>
+    </div>
+    <div class="offer-right reveal">
+      <div class="countdown-box">
+        <div class="cd-label">⏳ Offer Expires In</div>
+        <div class="cd-clocks">
+          <div class="cd-unit"><span id="cd-days">00</span><label>Days</label></div>
+          <div class="cd-sep">:</div>
+          <div class="cd-unit"><span id="cd-hours">00</span><label>Hours</label></div>
+          <div class="cd-sep">:</div>
+          <div class="cd-unit"><span id="cd-mins">00</span><label>Mins</label></div>
+          <div class="cd-sep">:</div>
+          <div class="cd-unit"><span id="cd-secs">00</span><label>Secs</label></div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- CONTACT -->
+<section id="contact" class="contact">
+  <div class="wrap">
+    <div class="eyebrow center">Find Us</div>
+    <h2 class="center">Book Your Slot</h2>
+    <div class="contact-grid">
+      <div class="contact-details reveal">
+        <div class="c-item">
+          <div class="c-icon">📞</div>
+          <div class="c-text">
+            <strong>Phone / WhatsApp</strong>
+            <a href="tel:9022400165">9022400165</a>
+          </div>
+        </div>
+        <div class="c-item">
+          <div class="c-icon">📧</div>
+          <div class="c-text">
+            <strong>Email</strong>
+            <a href="mailto:Dropoutsturf@gmail.com">Dropoutsturf@gmail.com</a>
+          </div>
+        </div>
+        <div class="c-item">
+          <div class="c-icon">📸</div>
+          <div class="c-text">
+            <strong>Instagram</strong>
+            <a href="https://instagram.com/dropouts.turf" target="_blank">@dropouts.turf</a>
+          </div>
+        </div>
+        <div class="c-item">
+          <div class="c-icon">📍</div>
+          <div class="c-text">
+            <strong>Address</strong>
+            <span>Near Mahalaxmi Temple, Manickpur Church Rd,<br/>Hanuman Nagar, Vasai West — 401202</span>
+          </div>
+        </div>
+        <a href="https://www.google.com/maps/dir/19.424253,72.8203385/Dropouts+Turf" target="_blank" class="btn-green mt">📍 Get Directions on Maps</a>
+      </div>
+      <div class="contact-map reveal">
+        <iframe
+          src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3763.1!2d72.8311107!3d19.3720106!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3be7af8c1a79afcd%3A0x1c72eb4b4f00cc2c!2sDropouts%20Turf!5e0!3m2!1sen!2sin!4v1"
+          width="100%" height="380" style="border:0;border-radius:20px;" allowfullscreen="" loading="lazy">
+        </iframe>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- FOOTER -->
+<footer class="footer">
+  <div class="wrap footer-inner">
+    <img id="footer-logo" src="" alt="Dropouts Turf" class="footer-logo"/>
+    <p class="footer-copy">© 2025 Dropouts Turf · Vasai West, Maharashtra<br/>
+      <span>Vasai's Biggest FIFA Certified Grass Turf</span></p>
+    <div class="footer-socials">
+      <a href="https://instagram.com/dropouts.turf" target="_blank">Instagram</a>
+      <a href="mailto:Dropoutsturf@gmail.com">Email</a>
+      <a href="tel:9022400165">Call</a>
+    </div>
+  </div>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
